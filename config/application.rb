@@ -27,5 +27,7 @@ module Receta
 
     config.assets.precompile << %r(.*.(?:eot|svg|ttf|woff|woff2)$)
     config.active_record.raise_in_transactional_callbacks = true
+
+
   end
 end
